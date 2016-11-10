@@ -30,8 +30,13 @@
  *
  * Contact help@fusionticket.com if any conditions of this licencing isn't
  * clear to you.
+ * 
+ * It looks like the T is a trigger for template.
+ * It firsts CSS,
+ * then if its already set it calls javascript
+ * This is to avoid loading multiple times
  */
-error_reporting(0);
+//error_reporting(0);
 define('ft_check','shop');
 require_once('includes/config/init_common.php');
 global $_SHOP;
@@ -45,7 +50,24 @@ if (!isset($_GET['T'])) {
     header('Content-Type: text/css');
   }
   echo file_get_contents ($_SHOP->theme_dir.DS.$_GET['T']);
-} else {
+  
+}elseif (!isset($_GET['bootstrap'])){
+  //if $_GET not set, set to style style offcanvas.css
+  header('Content-Type: text/css');
+  //echo file_get_contents ($_SHOP->theme_dir.'/offcanvas.css');
+  echo file_get_contents ($_SHOP->theme_dir.'/offcanvas.css');
+  
+}elseif (file_exists($_SHOP->theme_dir.DS.$_GET['bootstrap'])){
+  //loop to include .js and .css bootstrap style
+  if (file_extension($_GET['bootstrap'])=='js'){
+    header('Content-Type: type/javascript');
+    echo ($_SHOP->theme_dir.DS.'/offcanvas.css');
+  }else{
+  header('Content-Type: text/css');
+  echo file_get_contents ($_SHOP->theme_dir.DS.'/offcanvas.css');
+  }
+
+}else {
   header('HTTP/1.1 404');
 }
 
