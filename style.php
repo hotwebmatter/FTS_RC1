@@ -51,22 +51,6 @@ if (!isset($_GET['T'])) {
   }
   echo file_get_contents ($_SHOP->theme_dir.DS.$_GET['T']);
   
-}elseif (!isset($_GET['bootstrap'])){
-  //if $_GET not set, set to style style offcanvas.css
-  header('Content-Type: text/css');
-  //echo file_get_contents ($_SHOP->theme_dir.'/offcanvas.css');
-  echo file_get_contents ($_SHOP->theme_dir.'/offcanvas.css');
-  
-}elseif (file_exists($_SHOP->theme_dir.DS.$_GET['bootstrap'])){
-  //loop to include .js and .css bootstrap style
-  if (file_extension($_GET['bootstrap'])=='js'){
-    header('Content-Type: type/javascript');
-    echo ($_SHOP->theme_dir.DS.'/offcanvas.css');
-  }else{
-  header('Content-Type: text/css');
-  echo file_get_contents ($_SHOP->theme_dir.DS.'/offcanvas.css');
-  }
-
 }else {
   header('HTTP/1.1 404');
 }

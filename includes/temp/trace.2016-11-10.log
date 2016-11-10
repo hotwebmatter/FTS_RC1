@@ -9257,3 +9257,58 @@ End of shop
 
 
 
+2016-11-10T15:48:05-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1478810885
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-10' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+

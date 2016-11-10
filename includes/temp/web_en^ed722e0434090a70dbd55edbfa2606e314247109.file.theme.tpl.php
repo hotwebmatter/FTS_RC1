@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-10 15:33:54
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-10 15:48:05
          compiled from "/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:102073545858236b60ed97a9-85338929%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ed722e0434090a70dbd55edbfa2606e314247109' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl',
-      1 => 1478810031,
+      1 => 1478810372,
       2 => 'file',
     ),
   ),
@@ -38,16 +38,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="bootstrap used for UI">
-    <meta name="author" content="Cat Turner (2016)">
+    <meta name="description" content="bootstrap used for UI. Example at: http://v4-alpha.getbootstrap.com/examples/">
+    <meta name="author" content="">
     
     <title>Off Canvas Template for Bootstrap</title>
-    <!--
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel='stylesheet' href='style.php' type='text/css' />
-		-->
-		
+
 		<!--Pull in jquery -->
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
@@ -55,10 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <script>
     /*global jQuery */
       window.jQuery = window.$ = jQuery;
-      
     </script>
     
-    <!--
+    <!-- Good for seeing bins
     <script type="text/javascript">
     $(document).ready(function(){ 
       $("div").css("border", "3px solid red");
@@ -66,25 +60,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     });
     </script>
     -->
+    
+    <!--Tether -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 
-	
 		<!--Bootstrap CSS 4 -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     <!--Normalize CSS: keeps the resets in a page-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"></script>
     
-    
     <!--Font Awesome -->
     <script src="https://use.fontawesome.com/10795c302c.js"></script>
-		
-		
-	  <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    
-    
+
     
     <!-- Custom styles for this template -->
     <style type="text/css">
