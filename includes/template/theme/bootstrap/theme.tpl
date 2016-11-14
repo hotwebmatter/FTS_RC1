@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="bootstrap used for UI. Example at: http://v4-alpha.getbootstrap.com/examples/">
+    <meta name="description" content="A minimalist theme with an interactive interface">
     <meta name="author" content="">
     
-    <title>Off Canvas Template for Bootstrap</title>
+    <title>minilalist core</title>
 
 		<!--Pull in jquery -->
 		
@@ -18,6 +18,10 @@
     /*global jQuery */
       window.jQuery = window.$ = jQuery;
     </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
     
     <!-- Good for seeing bins
     <script type="text/javascript">
@@ -39,6 +43,7 @@
     
     <!--Font Awesome -->
     <script src="https://use.fontawesome.com/10795c302c.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     
     <!-- Custom styles for this template -->
@@ -71,6 +76,14 @@
                -o-transition: all .25s ease-out;
                   transition: all .25s ease-out;
         }
+        
+        .row-login{
+          position: relative;
+          -webkit-transition: all .25s ease-out;
+               -o-transition: all .25s ease-out;
+                  transition: all .25s ease-out;
+          
+        }
       
         .row-offcanvas-right {
           right: 0;
@@ -91,7 +104,7 @@
         }
       
         .row-offcanvas-right.active {
-          right: 50%; /* 6 columns */
+          right: 70%; /* 6 columns */
         }
       
         .row-offcanvas-left.active {
@@ -104,6 +117,38 @@
           width: 50%; /* 6 columns */
         }
       }
+      
+    #login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+    }
+    #login-dp .help-block{
+        font-size:12px    
+    }
+    #login-dp .bottom{
+        background-color:rgba(255,255,255,.8);
+        border-top:1px solid #ddd;
+        clear:both;
+        padding:14px;
+    }
+    #login-dp .form-group {
+        margin-bottom: 10px;
+        background-color: inherit;
+    }
+
+    @media(max-width:768px){
+        #login-dp{
+            background-color: inherit;
+            color: rgba(0, 0, 0, 0.5);;
+        }
+        #login-dp .bottom{
+            background-color: inherit;
+            border-top:0 none;
+            color: rgba(0, 0, 0, 0.5);;
+        }
+    }
 
     
     </style>
@@ -113,15 +158,98 @@
   <body>
     <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
       <div class="container">
-        <a class="navbar-brand" href="#">Project name</a>
-        <ul class="nav navbar-nav">
-          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <a class="nav-brand" href="#">Fusion Ticket</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"></i>Join<b class="caret"></b></a>
+            <div class="dropdown-menu pull-left" style="padding: 15px; padding-bottom: 3px;">
+            <div class="row" id="login-dp">
+							<div class="col-md-12">
+  								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+  										<div class="form-group">
+  											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+  											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+  										</div>
+  										<div class="form-group">
+  											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+  											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+  										</div>
+  										<div class="form-group">
+  											 <label class="sr-only" for="exampleInputPassword2">Confirm Password</label>
+  											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password" required>
+  										</div>
+  										<div class="form-group">
+  											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+  										</div>
+  										<div class="checkbox">
+  											 <label>
+  											 <input type="checkbox"> keep me logged-in
+  											 </label>
+  										</div>
+  								 </form>
+							</div>
+							<div class="bottom text-center">
+								Already a member? <a href="#"><b>Log in</b></a>
+							</div>
+					  </div>
+					  </div>
+          </li>
+          
+          <!--
+          
+          <li class ="dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Join <strong class="caret"></strong></a>
+            <div class="dropdown-menu pull-left" style="padding: 15px; padding-bottom: 3px;">
+
+              <form action="[YOUR ACTION]" method="post" accept-charset="UTF-8">
+                <input id="user_username" style="margin-bottom: 15px;" type="text" name="user[username]" size="30" />
+                <input id="user_password" style="margin-bottom: 15px;" type="password" name="user[password]" size="30" />
+                <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" />
+                <label class="string optional" for="user_remember_me"> Remember me</label>
+                 
+                <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" />
+              </form>
+            </div>
+            
+          </li>
+          -->
+          
+          
         </ul>
+
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
+    
+    <div class="container">
+      
+      <form class="form-signin">
+        
+        <div class="row">
+          <div class="col-xs-6 col-lg-4">
+          <h2 class="form-signin-heading">Hello.</h2>
+          </div>
+        </div>
+        
+        <div class="row row-login row-login-top">
+          <div class="col-xs-6 col-lg-4">
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <label for="inputPassword" classs="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </div>
+      </div>
+      </form>
+      <br></br>
 
+    </div> <!-- /container -->
+      
+    </div>
+    
     <div class="container">
 
       <div class="row row-offcanvas row-offcanvas-right">
@@ -132,8 +260,11 @@
             <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+            <h1>Welcome to menupop Fusion Ticket Theme!</h1>
+            <p>This is an example to show the potential to use a theme with Bootstrap within Fusion Ticket. 
+            The grey box is the media window, where we show images and media. The booking should also appear here.</p>
+   
+            
           </div>
           <div class="row">
             <div class="col-xs-6 col-lg-4">
@@ -189,6 +320,7 @@
 
       <footer>
         <p>&copy; Company 2014</p>
+        
       </footer>
 
     </div><!--/.container-->
