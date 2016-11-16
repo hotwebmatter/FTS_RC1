@@ -1,83 +1,38 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-16 13:46:44
-         compiled from "/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:102073545858236b60ed97a9-85338929%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_valid = $_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    'ed722e0434090a70dbd55edbfa2606e314247109' => 
-    array (
-      0 => '/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl',
-      1 => 1479322001,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '102073545858236b60ed97a9-85338929',
-  'function' => 
-  array (
-    'menu' => 
-    array (
-      'parameter' => 
-      array (
-        'class' => '',
-        'level' => 0,
-        'data' => 
-        array (
-        ),
-      ),
-      'compiled' => '',
-    ),
-  ),
-  'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_58236b611efb08_19789303',
-  'variables' => 
-  array (
-    'class' => 0,
-    'level' => 0,
-    'data' => 0,
-    'entry' => 0,
-    'shop_sitename' => 0,
-    'shop_slogan' => 0,
-    'topmenu' => 0,
-    'name' => 0,
-    'vermenu' => 0,
-    'pagetitle' => 0,
-    'headerNote' => 0,
-    'WebContent' => 0,
-    'footNote' => 0,
-  ),
-  'has_nocache_code' => 0,
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58236b611efb08_19789303')) {function content_58236b611efb08_19789303($_smarty_tpl) {?>
+{*                  %%%copyright%%%
+ *
+ * FusionTicket - ticket reservation system
+ *  Copyright (C) 2007-2013 FusionTicket Solution Limited . All rights reserved.
+ *
+ * Original Design:
+ *	phpMyTicket - ticket reservation system
+ * 	Copyright (C) 2004-2005 Anna Putrino, Stanislav Chachkov. All rights reserved.
+ *
+ * This file is part of FusionTicket.
+ *
+ * This file may be distributed and/or modified under the terms of the
+ * "GNU General Public License" version 3 as published by the Free
+ * Software Foundation and appearing in the file LICENSE included in
+ * the packaging of this file.
+ *
+ * This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING
+ * THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE.
+ *
+ * Any links or references to Fusion Ticket must be left in under our licensing agreement.
+ *
+ * By USING this file you are agreeing to the above terms of use. REMOVING this licence does NOT
+ * remove your obligation to the terms of use.
+ *
+ * The "GNU General Public License" (GPL) is available at
+ * http://www.gnu.org/copyleft/gpl.html.
+ *
+ * Contact help@fusionticket.com if any conditions of this licencing isn't
+ * clear to you.
+ *}
 <!DOCTYPE html>
-<?php if (!function_exists('smarty_template_function_menu')) {
-    function smarty_template_function_menu($_smarty_tpl,$params) {
-    $saved_tpl_vars = $_smarty_tpl->tpl_vars;
-    foreach ($_smarty_tpl->smarty->template_functions['menu']['parameter'] as $key => $value) {$_smarty_tpl->tpl_vars[$key] = new Smarty_variable($value);};
-    foreach ($params as $key => $value) {$_smarty_tpl->tpl_vars[$key] = new Smarty_variable($value);}?>
-  <ul class="<?php echo $_smarty_tpl->tpl_vars['class']->value;?>
- level<?php echo $_smarty_tpl->tpl_vars['level']->value;?>
-">
-  <?php  $_smarty_tpl->tpl_vars['entry'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['entry']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['data']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['entry']->key => $_smarty_tpl->tpl_vars['entry']->value){
-$_smarty_tpl->tpl_vars['entry']->_loop = true;
-?>
-    <li><a href=<?php echo $_smarty_tpl->tpl_vars['entry']->value['href'];?>
-><?php echo $_smarty_tpl->tpl_vars['entry']->value['title'];?>
-</a></li>
-    <?php if (is_array($_smarty_tpl->tpl_vars['entry']->value['menu'])){?>
-       <?php smarty_template_function_menu($_smarty_tpl,array('data'=>$_smarty_tpl->tpl_vars['entry']->value['menu'],'level'=>$_smarty_tpl->tpl_vars['level']->value+1));?>
-
-    <?php }?>
-  <?php } ?>
-  </ul>
-<?php $_smarty_tpl->tpl_vars = $saved_tpl_vars;}}?>
-
 
 <html lang="en">
   <head>
-    <?php echo $_smarty_tpl->getSubTemplate ("required_header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
-
     <!-- Required meta tags always come first-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -304,7 +259,7 @@ $_smarty_tpl->tpl_vars['entry']->_loop = true;
         
         <div class="row">
           <div class="col-xs-6 col-lg-4">
-          <h2 class="form-signin-heading">Howdy.</h2>
+          <h2 class="form-signin-heading">Hello.</h2>
           </div>
         </div>
         
@@ -473,162 +428,6 @@ $_smarty_tpl->tpl_vars['entry']->_loop = true;
     });
     
     </script>
-    
-    <div id="art-main">
-    <div class="cleared reset-box"></div>
-    <div class="art-header">
-        <div class="art-header-position">
-            <div class="art-header-wrapper">
-                <div class="cleared reset-box"></div>
-                <div class="art-header-inner">
-                <div class="art-headerobject"></div>
-                <div class="art-logo">
-              <?php if ($_smarty_tpl->tpl_vars['shop_sitename']->value){?>
-                <h1 class="art-logo-name"><a href="./index.html"><?php echo $_smarty_tpl->tpl_vars['shop_sitename']->value;?>
-</a></h1>
-              <?php }?>
-              <?php if ($_smarty_tpl->tpl_vars['shop_slogan']->value){?>
-                <h2 class="art-logo-text"><?php echo $_smarty_tpl->tpl_vars['shop_slogan']->value;?>
-</h2>
-              <?php }?>
-                                </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="cleared reset-box"></div>
-<div class="art-bar art-nav">
-<div class="art-nav-outer">
-<div class="art-nav-wrapper">
-<div class="art-nav-inner">
-              <?php if ($_smarty_tpl->tpl_vars['topmenu']->value){?>
-                 <?php smarty_template_function_menu($_smarty_tpl,array('data'=>$_smarty_tpl->tpl_vars['topmenu']->value,'class'=>"art-hmenu"));?>
-
-              <?php }else{ ?>
-                <ul class='art-menu'>
-                  <li>
-                    welkom to the world
-                  </li>
-                 </ul>
-              <?php }?>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="cleared reset-box"></div>
-<div class="art-box art-sheet">
-        <div class="art-box-body art-sheet-body">
-            <div class="art-layout-wrapper">
-                <?php echo $_smarty_tpl->getSubTemplate ("Progressbar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('name'=>$_smarty_tpl->tpl_vars['name']->value), 0);?>
-
-
-                <DIV style="MARGIN-TOP: 0.35em;MARGIN-Bottom: 0.35em; DISPLAY: none" id=error-message class="ui-state-error ui-corner-all" title="Order Error Message">
-                <P><SPAN style="FLOAT: left; MARGIN-RIGHT: 0.3em" class="ui-icon ui-icon-alert"></SPAN><div id=error-text>ffff<br>tttttcv ttt </div> </P></DIV>
-                <DIV style="MARGIN-TOP: 0.35em; MARGIN-Bottom: 0.35em; DISPLAY: none" id=notice-message class="ui-state-highlight ui-corner-all" title="Order Notice Message">
-                <P><SPAN style="FLOAT: left; MARGIN-RIGHT: 0.3em" class="ui-icon ui-icon-info"></SPAN><div id=notice-text>fff</div> </P></DIV>
-
-                <div class="art-content-layout">
-                    <div class="art-content-layout-row">
-                        <div class="art-layout-cell art-sidebar1">
-                <?php echo $_smarty_tpl->getSubTemplate ('user_login_block.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
-
-                <?php if ($_smarty_tpl->tpl_vars['vermenu']->value){?>
-<div class="art-box art-vmenublock">
-    <div class="art-box-body art-vmenublock-body">
-                <div class="art-bar art-vmenublockheader">
-                        <h3 class="t"><?php echo con("vertical_menu");?>
-</h3>
-                </div>
-                <div class="art-box art-vmenublockcontent">
-                    <div class="art-box-body art-vmenublockcontent-body">
-                          <?php smarty_template_function_menu($_smarty_tpl,array('data'=>$_smarty_tpl->tpl_vars['vermenu']->value,'class'=>"art-vmenu"));?>
-
-                                		<div class="cleared"></div>
-                    </div>
-                </div>
-            		<div class="cleared"></div>
-              </div>
-            </div>
-         <?php }?>
-             <?php echo $_smarty_tpl->getSubTemplate ('cart_view_block.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
-
-                          <div class="cleared"></div>
-                        </div>
-
-
-                        <div class="art-layout-cell art-content">
-                          <div class="art-box art-post">
-                            <div class="art-box-body art-post-body">
-                              <div class="art-post-inner art-article">
-                                <h2 class="art-postheader"><?php echo $_smarty_tpl->tpl_vars['pagetitle']->value;?>
-</h2>
-                                <?php if ($_smarty_tpl->tpl_vars['headerNote']->value){?>
-                                  <div class="art-postcontent">
-                                    <div class="art-content-layout">
-                                      <div class="art-content-layout-row">
-                                        <div class="art-layout-cell layout-item-0" style="width: 100%;">
-                                          <p><?php echo $_smarty_tpl->tpl_vars['headerNote']->value;?>
-</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                <?php }?>
-                                <div class="art-postcontent">
-                                   <?php echo $_smarty_tpl->tpl_vars['WebContent']->value;?>
-
-                                </div>
-                                <?php if (!$_smarty_tpl->tpl_vars['footNote']->value){?>
-                                  <div class="art-postcontent">
-                                    <div class="art-content-layout">
-                                      <div class="art-content-layout-row">
-                                        <div class="art-layout-cell layout-item-0" style="width: 100%;">
-                                          <p><?php echo $_smarty_tpl->tpl_vars['footNote']->value;?>
-</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                <?php }?>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="cleared"></div>
-                  </div>
-                </div>
-                <div class="cleared"></div>
-               <div class="art-footer">
-                <div class="art-footer-body">
-              
-                            <div class="art-footer-text">
-              <p>
-            		<!-- To comply with our GPL please keep the following link in the footer of your site -->
-                <!-- Failure to abide by these rules may result in the loss of all support and/or site status. -->
-                Copyright &copy; 2012. All Rights Reserved.<br>
-                Powered By <a href="http://www.fusionticket.org"> Fusion Ticket</a> - Free Open Source Online Box Office
-              </p>
-            </div>
-            <div class="cleared"></div>
-          </div>
-        </div>
-    		<div class="cleared"></div>
-      </div>
-    </div>
-    <div class="cleared"></div>
-    <p class="art-page-footer"></p>
-    <div class="cleared"></div>
-  </div>
-  <div style="display:none" id='showdialog'></div>
-    
 
   </body>
 </html>
-<?php }} ?>

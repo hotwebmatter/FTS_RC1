@@ -30,9 +30,20 @@
  * clear to you.
  *}
 <!DOCTYPE html>
+{function name=menu class='' level=0 data=[]}
+  <ul class="{$class} level{$level}">
+  {foreach $data as $entry}
+    <li><a href={$entry.href}>{$entry.title}</a></li>
+    {if is_array($entry.menu)}
+       {call name=menu data=$entry.menu level=$level+1}
+    {/if}
+  {/foreach}
+  </ul>
+{/function}
 
 <html lang="en">
   <head>
+    {include file="required_header.tpl"}
     <!-- Required meta tags always come first-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -57,11 +68,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.js"></script> 
     <script src="js/combodate.js"></script>
     
-    
-    
-    
-
-    
     <!-- Good for seeing bins
     <script type="text/javascript">
     $(document).ready(function(){ 
@@ -71,7 +77,6 @@
     </script>
     -->
 
-    
     
     <!--Tether -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
@@ -265,7 +270,7 @@
         
         <div class="row">
           <div class="col-xs-6 col-lg-4">
-          <h2 class="form-signin-heading">Hello.</h2>
+          <h2 class="form-signin-heading">Howdy.</h2>
           </div>
         </div>
         
@@ -434,6 +439,149 @@
     });
     
     </script>
+    
+    <div id="art-main">
+    <div class="cleared reset-box"></div>
+    <div class="art-header">
+        <div class="art-header-position">
+            <div class="art-header-wrapper">
+                <div class="cleared reset-box"></div>
+                <div class="art-header-inner">
+                <div class="art-headerobject"></div>
+                <div class="art-logo">
+              {if $shop_sitename}
+                <h1 class="art-logo-name"><a href="./index.html">{$shop_sitename}</a></h1>
+              {/if}
+              {if $shop_slogan}
+                <h2 class="art-logo-text">{$shop_slogan}</h2>
+              {/if}
+                                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cleared reset-box"></div>
+<div class="art-bar art-nav">
+<div class="art-nav-outer">
+<div class="art-nav-wrapper">
+<div class="art-nav-inner">
+              {if $topmenu}
+                 {call name=menu data=$topmenu class="art-hmenu"}
+              {else}
+                <ul class='art-menu'>
+                  <li>
+                    welkom to the world
+                  </li>
+                 </ul>
+              {/if}
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="cleared reset-box"></div>
+<div class="art-box art-sheet">
+        <div class="art-box-body art-sheet-body">
+            <div class="art-layout-wrapper">
+                {include file="Progressbar.tpl" name=$name}
+
+                <DIV style="MARGIN-TOP: 0.35em;MARGIN-Bottom: 0.35em; DISPLAY: none" id=error-message class="ui-state-error ui-corner-all" title="Order Error Message">
+                <P><SPAN style="FLOAT: left; MARGIN-RIGHT: 0.3em" class="ui-icon ui-icon-alert"></SPAN><div id=error-text>ffff<br>tttttcv ttt </div> </P></DIV>
+                <DIV style="MARGIN-TOP: 0.35em; MARGIN-Bottom: 0.35em; DISPLAY: none" id=notice-message class="ui-state-highlight ui-corner-all" title="Order Notice Message">
+                <P><SPAN style="FLOAT: left; MARGIN-RIGHT: 0.3em" class="ui-icon ui-icon-info"></SPAN><div id=notice-text>fff</div> </P></DIV>
+
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1">
+                {include file='user_login_block.tpl'}
+                {if $vermenu}
+<div class="art-box art-vmenublock">
+    <div class="art-box-body art-vmenublock-body">
+                <div class="art-bar art-vmenublockheader">
+                        <h3 class="t">{!vertical_menu!}</h3>
+                </div>
+                <div class="art-box art-vmenublockcontent">
+                    <div class="art-box-body art-vmenublockcontent-body">
+                          {call name=menu data=$vermenu class="art-vmenu"}
+                                		<div class="cleared"></div>
+                    </div>
+                </div>
+            		<div class="cleared"></div>
+              </div>
+            </div>
+         {/if}
+             {include file='cart_view_block.tpl'}
+                          <div class="cleared"></div>
+                        </div>
+
+{* content start here *}
+                        <div class="art-layout-cell art-content">
+                          <div class="art-box art-post">
+                            <div class="art-box-body art-post-body">
+                              <div class="art-post-inner art-article">
+                                <h2 class="art-postheader">{$pagetitle}</h2>
+                                {if $headerNote}
+                                  <div class="art-postcontent">
+                                    <div class="art-content-layout">
+                                      <div class="art-content-layout-row">
+                                        <div class="art-layout-cell layout-item-0" style="width: 100%;">
+                                          <p>{$headerNote}</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                {/if}
+                                <div class="art-postcontent">
+                                   {$WebContent}
+                                </div>
+                                {if !$footNote}
+                                  <div class="art-postcontent">
+                                    <div class="art-content-layout">
+                                      <div class="art-content-layout-row">
+                                        <div class="art-layout-cell layout-item-0" style="width: 100%;">
+                                          <p>{$footNote}</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                {/if}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="cleared"></div>
+                  </div>
+                </div>
+                <div class="cleared"></div>
+               <div class="art-footer">
+                <div class="art-footer-body">
+              {* <a href="#" class="art-rss-tag-icon" title="RSS"></a> *}
+                            <div class="art-footer-text">
+              <p>
+            		<!-- To comply with our GPL please keep the following link in the footer of your site -->
+                <!-- Failure to abide by these rules may result in the loss of all support and/or site status. -->
+                Copyright &copy; 2012. All Rights Reserved.<br>
+                Powered By <a href="http://www.fusionticket.org"> Fusion Ticket</a> - Free Open Source Online Box Office
+              </p>
+            </div>
+            <div class="cleared"></div>
+          </div>
+        </div>
+    		<div class="cleared"></div>
+      </div>
+    </div>
+    <div class="cleared"></div>
+    <p class="art-page-footer"></p>
+    <div class="cleared"></div>
+  </div>
+  <div style="display:none" id='showdialog'></div>
+    
 
   </body>
 </html>

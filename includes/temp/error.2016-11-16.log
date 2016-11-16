@@ -1,0 +1,4 @@
+16.11.2016 14:01 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+16.11.2016 14:01 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
