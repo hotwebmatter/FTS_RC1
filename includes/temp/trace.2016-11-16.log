@@ -1,0 +1,4751 @@
+2016-11-16T11:02:18-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479312138
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:03:38-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:03:43-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:07:56-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:07:59-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:08:03-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:08:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:08:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:11:30-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:14:49-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479312889
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:14:52-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:16:24-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:19:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:20:21-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:23:24-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:32:23-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479313942
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:32:27-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:33:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:33:14-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:39:52-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:40:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:40:15-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:07-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479314947
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:09-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:34-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:35-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T11:49:46-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:00:39-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479315639
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:00:43-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:02:27-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:00-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:07-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:07-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:08-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:08-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:06:08-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:37-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:38-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:39-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:39-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:53-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:54-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:55-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:55-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:56-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:08:56-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:09:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:10:47-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479316247
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:10:52-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:12:36-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:12:40-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:09-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:11-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:12-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:12-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:18-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:24-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:30-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:40-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:41-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:15:52-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:16:02-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:16:21-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:16:47-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:17:44-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:18:40-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:18:58-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:19:11-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:19:14-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:19:15-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:34-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479316954
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:36-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:39-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:43-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:49-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:22:58-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:23:34-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:24:26-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:24:29-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:24:42-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:25:14-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:25:17-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:26:33-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:33:55-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479317635
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:33:58-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:34:03-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:34:19-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:36:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:36:35-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:50:03-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1479318603
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:50:09-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:51:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:51:36-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:51:39-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:52:20-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:53:26-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:53:29-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:53:41-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:53:44-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:54:05-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:54:08-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:54:13-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:54:40-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:54:47-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:55:01-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:55:06-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:55:17-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:56:09-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-11-16T12:56:12-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select User.*, auth.active
+            from User left join auth on auth.user_id=User.user_id
+            where User.user_id='4'
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-11-16' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+

@@ -46,7 +46,6 @@ if (!isset($_GET['T'])) {
 } elseif (file_exists($_SHOP->theme_dir.DS.$_GET['T'])) {
   if (file_extension($_GET['T'])=='js') {
     header('Content-Type: text/javascript');
-    echo $_SHOP->theme_dir.$_GET['T'];
   } else {
     header('Content-Type: text/css');
   }

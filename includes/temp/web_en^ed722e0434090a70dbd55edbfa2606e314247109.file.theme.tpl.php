@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-14 11:56:45
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-16 12:56:09
          compiled from "/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:102073545858236b60ed97a9-85338929%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ed722e0434090a70dbd55edbfa2606e314247109' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/theme/bootstrap/theme.tpl',
-      1 => 1479142602,
+      1 => 1479318961,
       2 => 'file',
     ),
   ),
@@ -31,7 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_58236b611efb08_19789303',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58236b611efb08_19789303')) {function content_58236b611efb08_19789303($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_58236b611efb08_19789303')) {function content_58236b611efb08_19789303($_smarty_tpl) {?>
+<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags always come first-->
@@ -54,6 +56,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <!--To install time drop down menu -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.js"></script> 
+    <script src="js/combodate.js"></script>
+    
+    
+    
+    
 
     
     <!-- Good for seeing bins
@@ -64,6 +73,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     });
     </script>
     -->
+
+    
     
     <!--Tether -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
@@ -170,6 +181,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         margin-bottom: 10px;
         background-color: inherit;
     }
+    
+    .radio-select{
+      padding:3px;
+    }
 
     @media(max-width:768px){
         #login-dp{
@@ -186,13 +201,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     </style>
 
+
   </head>
 
   <body>
     <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
       <div class="container">
         <a class="nav-brand" href="#">Fusion Ticket</a>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
+        <li class="nav-item">
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"></i>Join<b class="caret"></b></a>
             <div class="dropdown-menu pull-left" style="padding: 15px; padding-bottom: 3px;">
             <div class="row" id="login-dp">
@@ -226,34 +243,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					  </div>
 					  </div>
           </li>
-          
-          <!--
-          
-          <li class ="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Join <strong class="caret"></strong></a>
-            <div class="dropdown-menu pull-left" style="padding: 15px; padding-bottom: 3px;">
-
-              <form action="[YOUR ACTION]" method="post" accept-charset="UTF-8">
-                <input id="user_username" style="margin-bottom: 15px;" type="text" name="user[username]" size="30" />
-                <input id="user_password" style="margin-bottom: 15px;" type="password" name="user[password]" size="30" />
-                <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" />
-                <label class="string optional" for="user_remember_me"> Remember me</label>
-                 
-                <input class="btn btn-primary" style="clear: left; width: 100%; height: 32px; font-size: 13px;" type="submit" name="commit" value="Sign In" />
-              </form>
-            </div>
-            
           </li>
-          -->
-          
-          
-        </ul>
-
-      </div><!-- /.container -->
+          <li class="nav-item">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"></i><i class="fa fa-shopping-cart" aria-hidden="true"></i><b class="caret"></b></a>
+            <div class="dropdown-menu pull-left" style="padding: 15px; padding-bottom: 3px;">
+            <div class="row" id="login-dp">
+							<div class="col-md-12">
+							  <p>You have no reserved tickets</p>
+							</div>
+							<div class="bottom text-center">
+								Already a member? <a href="#"><b>Log in</b></a> or
+								<a href="#"><b>Join</b></a>
+							</div>
+					  </div>
+					  </div>
+          </li>
+          </li>
+          </ul>
     </nav><!-- /.navbar -->
-    
+    <br></br>
     <div class="container">
-      
+
       <form class="form-signin">
         
         <div class="row">
@@ -295,56 +305,103 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           <div class="jumbotron">
             <h1>Welcome to menupop Fusion Ticket Theme!</h1>
             <p>This is an example to show the potential to use a theme with Bootstrap within Fusion Ticket. 
-            The grey box is the media window, where we show images and media. The booking should also appear here.</p>
+            The grey box is the media window, where we show images and media. The booking of seats
+            will also appear here.</p>
    
             
           </div>
           <div class="row">
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
+            <div class="col-xs-12 col-lg-12">
+              <h2>Upcoming Event 1</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
+          <div class="col-xs-12 col-lg-12">
+              <h2>Upcoming Event 2</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!--/span-->
+          </div><!--/row-->
+          <div class="row">
+            <div class="col-xs-12 col-lg-12">
+              <h2>Calendar Heading 1</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
+          <div class="col-xs-12 col-lg-12">
+              <h2>Calendar Heading 2</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-xs-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
+          </div><!--/span-->
           </div><!--/row-->
         </div><!--/span-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
-            <a href="#" class="list-group-item active">Link</a>
+            <a href="#" class="list-group-item active"><h2>Find.</h2></a>
+            <a href="#" class="list-group-item">Check-in</a>
+            <a href="#" class="list-group-item">Status</a>
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <form>
+                  <span class="radio-select">
+                  <label class="radio-inline">
+                    <input type="radio" name="optradio">Round-Trip
+                  </label>
+                  </span>
+                  <span  class="radio-select">
+                  <label class="radio-inline">
+                    <input type="radio" name="optradio">One-Way
+                  </label>
+                  </span>
+                </form>
+              </div>
+            </a>
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <form class="form" role="form" method="post" action="book-trip" accept-charset="UTF-8" id="trip-nav">
+  										<div class="form-group">
+  											 <label class="sr-only" for="start-loc">From</label>
+  											 <input type="start-loc" class="form-control" id="start-loc" placeholder="From" required>
+  										</div>
+  										<div class="form-group">
+  											 <label class="sr-only" for="end-loc">To</label>
+  											 <input type="end-loc" class="form-control" id="end-loc" placeholder="To" required>
+  										</div>
+  										<div class="form-group">
+  											 <label class="sr-only" for="depart-date">Depart Date</label>
+  											 <input type="date" class="form-control" id="depart-date" placeholder="Depart Date" required>
+  										</div>
+  										<!--
+  										<div class="form-group">
+  										<input type="text" id="time" data-format="HH:mm" data-template="HH : mm" name="datetime">
+                      </div>
+                      -->
+                      
+                      <div class="form-group">
+  											 <label class="sr-only" for="return-date">Return Date</label>
+  											 <input type="date" class="form-control" id="return-date" placeholder="Return Date" required>
+  										</div>
+  										<!--
+  										<div class="form-group">
+  										<input type="text" id="time2" data-format="HH:mm" data-template="HH : mm" name="datetime">
+  										</div>
+  										-->
+
+  										<div class="form-group">
+  										  <button type="submit" class="btn btn-default">Submit</button>
+  										</div>
+  								 </form>
+              </div>
+              
+            </a>
+            <!--ADDING MORE ITEMS
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
+            -->
           </div>
         </div><!--/span-->
       </div><!--/row-->
@@ -359,10 +416,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div><!--/.container-->
     
     <script type="text/javascript">
+
+    
     $(document).ready(function () {
+      
+      
+      
+      
       $('[data-toggle="offcanvas"]').click(function () {
         $('.row-offcanvas').toggleClass('active');
       });
+      
+    
+    $('#time').combodate({
+        firstItem: 'name', //show 'hour' and 'minute' string at first item of dropdown
+        minuteStep: 1
+    });  
+      
+      
     });
     
     </script>
