@@ -1,0 +1,62 @@
+22.11.2016 14:08 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 14:08 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 14:10 --- /index.php?event_id=4 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 14:10 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 14:10 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 14:10 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:06 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:52 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:52 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:52 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:53 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:53 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:53 --- /index.php?event_id=4 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:53 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:54 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:54 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:54 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:56 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:57 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:59 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 15:59 --- /index.php?event_id=4 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:04 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:06 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:06 --- /index.php?event_id=4&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:07 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:07 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:08 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:09 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:10 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:10 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+22.11.2016 16:14 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
