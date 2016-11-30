@@ -1,0 +1,368 @@
+28.11.2016 10:52 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=49&amp;pmp_id=59 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 10:53 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=59&amp;category_id=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 10:54 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 10:54 --- /?AdminSession=AdminSession --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:11 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=6&amp;pmp_id=16 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:15 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:16 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:16 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=1&amp;pmp_id=14 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:17 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=61 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:17 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=50&amp;pmp_id=61 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:17 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=61&amp;pmz_ident=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:17 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:18 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:18 --- /admin/view_event.php --------------------------------
+Warning: Invalid argument supplied for foreach(), /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 290
+28.11.2016 11:18 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=61 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:18 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:18 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:19 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:20 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=49&amp;pmp_id=59 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:24 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:24 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:24 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:24 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:26 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:26 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:27 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:27 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:27 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62&amp;category_id=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:27 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:27 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62&amp;category_id=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:28 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:29 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:29 --- /admin/view_event.php?action=edit_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:29 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:29 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:29 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:30 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:30 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:30 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:31 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:31 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:31 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:31 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:32 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:32 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 248
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:32 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:32 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:33 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:33 --- /admin/view_event.php?action=edit_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:33 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:33 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:34 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:34 --- /admin/view_event.php?action=edit_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:34 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:34 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:35 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:35 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62&amp;category_id=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:35 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62&amp;category_id=2 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62&amp;category_id=1 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:36 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:37 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:38 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:38 --- /admin/view_event.php?action=edit_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:38 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:39 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:39 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:39 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:40 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:40 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:40 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:40 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:40 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:41 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:41 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=62 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:41 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=63 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:41 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:41 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:42 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=63 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:42 --- /admin/view_event.php?action=edit_pmp&amp;pmp_id=63 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:43 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=63 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:45 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:45 --- /index.php?event_id=48 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:45 --- /index.php?event_id=48&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:46 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:47 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=6&amp;pmp_id=16 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:51 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=53&amp;pmp_id=64 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:53 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=52&amp;pmp_id=63 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:55 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=50&amp;pmp_id=61 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:55 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 11:55 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:56 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=50&amp;pmp_id=65 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:57 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:57 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:58 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:58 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:59 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:59 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:59 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:59 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 11:59 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:00 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:00 --- /admin/view_event.php?action=view_only_pmp&amp;pmp_id=65 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:01 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=49&amp;pmp_id=59 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:02 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=54&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:08 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=54&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:11 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:15 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:15 --- /admin/view_event.php?action=view_pmp&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:16 --- /admin/view_event.php --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:17 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:17 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:17 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:18 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:20 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:20 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:20 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:20 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:20 --- /admin/view_event.php?action=edit_pmp&amp;pm_id=54&amp;pmp_id=66 --------------------------------
+Warning: Creating default object from empty value, /home/ubuntu/workspace/includes/classes/model.placemappart.php @ 283
+28.11.2016 12:23 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:27 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:29 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:30 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:31 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:32 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- / --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php?event_id=50&amp;action=buy --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:33 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:36 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:36 --- /programm.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:37 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:37 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:37 --- /index.php --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:42 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:42 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:42 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:43 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:46 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:46 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:47 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:47 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:47 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:52 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:52 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:52 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
+28.11.2016 12:52 --- /index.php?event_id=50 --------------------------------
+Warning: getimagesize(/home/ubuntu/workspace/images/theme/bootstrap/na.png): failed to open stream: No such file or directory, /home/ubuntu/workspace/includes/classes/smarty.gui.php @ 1287
