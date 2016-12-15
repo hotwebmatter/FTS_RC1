@@ -1,0 +1,3656 @@
+2016-12-15T11:31:53-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1481819513
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:31:57-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//programm.php []
+/programm.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select  Event.*, Ort.* from Event LEFT JOIN Ort ON ort_id=event_ort_id where (event_rep ='main,sub' and (event_status='pub' and event_date>='2016-12-15'))
+	             OR     (event_rep = 'main' and (select COALESCE(count(*),0)
+	                                                    from Event main
+	                                                    where main.event_main_id = Event.event_id
+	                                                    and event_status='pub' and event_date>='2016-12-15')>0) order by event_date,event_time 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:31:58-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//calendar.php []
+/calendar.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date,event_time limit 0,15
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:32:01-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//calendar.php []
+/calendar.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date,event_time limit 0,15
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:32:29-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/index.php [][tab:0]
+/admin/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> view.index.php 158:
+SELECT count(admin_status) as count, admin_status
+  	       	FROM Admin
+  	       	group by admin_status
+  	       	order by admin_status
+=> view.index.php 110:
+SELECT count(user_status) as count,user_status, IF(active IS NOT NULL,'yes','no') as active
+  	       	FROM User left join auth on auth.user_id=User.user_id
+            group by user_status, IF(active IS NOT NULL,'yes','no')
+=> view.index.php 140:
+SELECT count(event_status) as count, event_status
+  	       	FROM Event
+            group by event_status
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:32:36-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [][tab:2]
+/admin/view_event.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> view.events.php 121:
+select SQL_CALC_FOUND_ROWS `event_id`, `event_name`, `event_text`, `event_short_text`, `event_url`, `event_image`, `event_ort_id`, `event_pm_id`, `event_date`, event_time event_time, `event_open`, `event_end`, `event_status`, `event_order_limit`, `event_template`, `event_group_id`, `event_mp3`, `event_rep`, `event_main_id`, `event_type`, `ort_id`, `ort_name`, `ort_phone`, `ort_plan_nr`, `ort_url`, `ort_image`, `ort_address`, `ort_address1`, `ort_zip`, `ort_city`, `ort_state`, `ort_country`, `ort_pm`, `ort_fax`
+              FROM Event LEFT JOIN Ort ON event_ort_id=ort_id
+              WHERE event_rep !='sub'
+              and event_status!='trash'
+              
+              and ((event_rep !='main' and  (event_status = 'pub' or  TO_DAYS(event_date) >= TO_DAYS(NOW())-1 )) 
+OR     (Event.event_rep='main' and (((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id
+	                                             and main.event_status!='trash'
+	                                             and (main.event_status = 'pub' or  (TO_DAYS(main.event_date) >= TO_DAYS(NOW())-1 )) > 0 or main.event_date is null or main.event_date = '0000-00-00' ) )
+	                                             OR
+	                                           ((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id and main.event_status!='trash' ) = 0))))
+              order by event_date, event_time
+               
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS()
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:32:51-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [][tab:2]
+/admin/view_event.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> view.events.php 121:
+select SQL_CALC_FOUND_ROWS `event_id`, `event_name`, `event_text`, `event_short_text`, `event_url`, `event_image`, `event_ort_id`, `event_pm_id`, `event_date`, event_time event_time, `event_open`, `event_end`, `event_status`, `event_order_limit`, `event_template`, `event_group_id`, `event_mp3`, `event_rep`, `event_main_id`, `event_type`, `ort_id`, `ort_name`, `ort_phone`, `ort_plan_nr`, `ort_url`, `ort_image`, `ort_address`, `ort_address1`, `ort_zip`, `ort_city`, `ort_state`, `ort_country`, `ort_pm`, `ort_fax`
+              FROM Event LEFT JOIN Ort ON event_ort_id=ort_id
+              WHERE event_rep !='sub'
+              and event_status!='trash'
+              
+              and ((event_rep !='main' and  (event_status = 'pub' or  TO_DAYS(event_date) >= TO_DAYS(NOW())-1 )) 
+OR     (Event.event_rep='main' and (((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id
+	                                             and main.event_status!='trash'
+	                                             and (main.event_status = 'pub' or  (TO_DAYS(main.event_date) >= TO_DAYS(NOW())-1 )) > 0 or main.event_date is null or main.event_date = '0000-00-00' ) )
+	                                             OR
+	                                           ((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id and main.event_status!='trash' ) = 0))))
+              order by event_date, event_time
+               
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS()
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:32:56-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [edit][tab:2]
+/admin/view_event.php [edit]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+             limit 1
+=> view.events.php 827:
+SELECT event_group_id,event_group_name
+                FROM Event_group
+          	  ORDER BY event_group_name
+=> view.events.php 801:
+SELECT template_name FROM Template
+              WHERE template_type='pdf2'
+              ORDER BY template_name
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+             limit 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> view.placemapzones.php 47:
+select * from PlaceMapZone where pmz_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> view.placemapparts.php 49:
+select * from PlaceMapPart where pmp_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT event_name, ort_name, event_status
+                FROM Event left join Ort on ort_id=event_ort_id
+                WHERE event_id=50
+=> view.discounts.php 54:
+SELECT *
+                FROM Discount
+                WHERE discount_event_id=50
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:33:25-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [save][tab:2]
+/admin/view_event.php [save]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+             limit 1
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin Save event]
+=> class.model.php 194:
+UPDATE `Event` SET 
+    `event_name`='PVD > WOON',
+    `event_text`='',
+    `event_short_text`='',
+    `event_url`='',
+    `event_webshop`=NULL,
+    `event_ort_id`=3,
+    `event_pm_id`=54,
+    `event_date`='2016-12-16',
+    `event_time`='09:00:00',
+    `event_timestamp`='2016-12-16 09:00:00',
+    `event_open`='',
+    `event_end`='',
+    `event_status`='pub',
+    `event_order_limit`=0,
+    `event_template`='',
+    `event_group_id`=NULL,
+    `event_rep`='main,sub',
+    `event_main_id`=NULL,
+    `event_type`='other',
+    `event_custom1`=NULL,
+    `event_custom2`=NULL,
+    `event_custom3`=NULL,
+    `event_custom4`='0000-00-00 00:00:00',
+    `event_view_begin`='0000-00-00 00:00:00',
+    `event_view_end`='0000-00-00 00:00:00',
+    `event_total`=52,
+    `event_free`=52
+WHERE `event_id` = 50 LIMIT 1
+[Commit event Saved ]
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin update subevents]
+[Commit Updated subevents]
+=> view.events.php 121:
+select SQL_CALC_FOUND_ROWS `event_id`, `event_name`, `event_text`, `event_short_text`, `event_url`, `event_image`, `event_ort_id`, `event_pm_id`, `event_date`, event_time event_time, `event_open`, `event_end`, `event_status`, `event_order_limit`, `event_template`, `event_group_id`, `event_mp3`, `event_rep`, `event_main_id`, `event_type`, `ort_id`, `ort_name`, `ort_phone`, `ort_plan_nr`, `ort_url`, `ort_image`, `ort_address`, `ort_address1`, `ort_zip`, `ort_city`, `ort_state`, `ort_country`, `ort_pm`, `ort_fax`
+              FROM Event LEFT JOIN Ort ON event_ort_id=ort_id
+              WHERE event_rep !='sub'
+              and event_status!='trash'
+              
+              and ((event_rep !='main' and  (event_status = 'pub' or  TO_DAYS(event_date) >= TO_DAYS(NOW())-1 )) 
+OR     (Event.event_rep='main' and (((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id
+	                                             and main.event_status!='trash'
+	                                             and (main.event_status = 'pub' or  (TO_DAYS(main.event_date) >= TO_DAYS(NOW())-1 )) > 0 or main.event_date is null or main.event_date = '0000-00-00' ) )
+	                                             OR
+	                                           ((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id and main.event_status!='trash' ) = 0))))
+              order by event_date, event_time
+               
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS()
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:33:29-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//calendar.php []
+/calendar.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date,event_time limit 0,15
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:33:35-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//calendar.php []
+/calendar.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date,event_time limit 0,15
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:33:38-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//calendar.php []
+/calendar.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date,event_time limit 0,15
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T11:35:02-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//programm.php []
+/programm.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select  Event.*, Ort.* from Event LEFT JOIN Ort ON ort_id=event_ort_id where (event_rep ='main,sub' and (event_status='pub' and event_date>='2016-12-15'))
+	             OR     (event_rep = 'main' and (select COALESCE(count(*),0)
+	                                                    from Event main
+	                                                    where main.event_main_id = Event.event_id
+	                                                    and event_status='pub' and event_date>='2016-12-15')>0) order by event_date,event_time 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:21:59-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1481822519
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* ,((select count(*) from Category where Event.event_id=Category.category_event_id and Category.category_web=1) >0) as category_web from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:22:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:22:11-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> model.seat.php 121:
+select seat_id, seat_status, seat_ts
+            from Seat
+            where seat_pmp_id=66
+=> class.model.php 194:
+UPDATE `PlaceMapPart` SET 
+    `pmp_pm_id`=54,
+    `pmp_ident`=0,
+    `pmp_ort_id`=NULL,
+    `pmp_event_id`=50,
+    `pmp_name`='Main Cart',
+    `pmp_width`=5,
+    `pmp_height`=15,
+    `pmp_scene`='',
+    `pmp_shift`=0,
+    `pmp_data`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;i:5;i:0;}}i:2;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;i:5;i:0;}}i:3;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;i:5;i:0;}}i:4;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;i:5;i:0;}}i:5;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;i:5;i:0;}}i:6;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;i:5;i:0;}}i:7;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;i:5;i:0;}}i:8;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;i:5;i:0;}}i:9;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;i:5;i:0;}}i:10;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;i:5;i:0;}}i:11;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;i:5;i:0;}}i:12;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;i:5;i:0;}}i:13;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;i:5;i:0;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_data_orig`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;}i:1;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;}i:4;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;}}i:2;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;}i:1;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;}i:4;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;}}i:3;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;}i:1;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;}i:4;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;}}i:4;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;}i:1;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;}i:4;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;}}i:5;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;}i:1;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;}i:4;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;}}i:6;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;}i:1;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;}i:4;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;}}i:7;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;}i:1;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;}i:4;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;}}i:8;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;}i:1;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;}i:4;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;}}i:9;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;}i:1;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;}i:4;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;}}i:10;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;}i:1;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;}i:4;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;}}i:11;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;}i:1;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;}i:4;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;}}i:12;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;}i:1;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;}i:4;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;}}i:13;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;}i:1;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;}i:4;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_expires`=1481826131
+WHERE `pmp_id` = 66 LIMIT 1
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:22:54-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [view_cart]
+/index.php [view_cart]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:23:22-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//checkout.php [index]
+/checkout.php [index]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin Running the Checkout pages]
+[Commit Checkout page rendered.]
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:23:27-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [view_cart]
+/index.php [view_cart]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:27:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [][tab:2]
+/admin/view_event.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> view.events.php 121:
+select SQL_CALC_FOUND_ROWS `event_id`, `event_name`, `event_text`, `event_short_text`, `event_url`, `event_image`, `event_ort_id`, `event_pm_id`, `event_date`, event_time event_time, `event_open`, `event_end`, `event_status`, `event_order_limit`, `event_template`, `event_group_id`, `event_mp3`, `event_rep`, `event_main_id`, `event_type`, `ort_id`, `ort_name`, `ort_phone`, `ort_plan_nr`, `ort_url`, `ort_image`, `ort_address`, `ort_address1`, `ort_zip`, `ort_city`, `ort_state`, `ort_country`, `ort_pm`, `ort_fax`
+              FROM Event LEFT JOIN Ort ON event_ort_id=ort_id
+              WHERE event_rep !='sub'
+              and event_status!='trash'
+              
+              and ((event_rep !='main' and  (event_status = 'pub' or  TO_DAYS(event_date) >= TO_DAYS(NOW())-1 )) 
+OR     (Event.event_rep='main' and (((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id
+	                                             and main.event_status!='trash'
+	                                             and (main.event_status = 'pub' or  (TO_DAYS(main.event_date) >= TO_DAYS(NOW())-1 )) > 0 or main.event_date is null or main.event_date = '0000-00-00' ) )
+	                                             OR
+	                                           ((select COALESCE(count(*),0)
+	                                             from Event main
+	                                             where main.event_main_id = Event.event_id and main.event_status!='trash' ) = 0))))
+              order by event_date, event_time
+               
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS()
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:27:35-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io/admin//admin/view_event.php [edit][tab:2]
+/admin/view_event.php [edit]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+              from Admin
+              where admin_id = 1
+=> model.admin.php 243:
+select adminlink_event_id from adminlink
+                where adminlink_event_id is not null and adminlink_admin_id = 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+             limit 1
+=> view.events.php 827:
+SELECT event_group_id,event_group_name
+                FROM Event_group
+          	  ORDER BY event_group_name
+=> view.events.php 801:
+SELECT template_name FROM Template
+              WHERE template_type='pdf2'
+              ORDER BY template_name
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+             limit 1
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> view.placemapzones.php 47:
+select * from PlaceMapZone where pmz_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select *
+           from PlaceMap2 left join Ort on pm_ort_id=ort_id
+           where pm_id=54
+=> view.placemapparts.php 49:
+select * from PlaceMapPart where pmp_pm_id=54
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT event_name, ort_name, event_status
+                FROM Event left join Ort on ort_id=event_ort_id
+                WHERE event_id=50
+=> view.discounts.php 54:
+SELECT *
+                FROM Discount
+                WHERE discount_event_id=50
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:28:25-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:28:25-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> model.seat.php 121:
+select seat_id, seat_status, seat_ts
+            from Seat
+            where seat_pmp_id=66
+=> class.model.php 194:
+UPDATE `PlaceMapPart` SET 
+    `pmp_pm_id`=54,
+    `pmp_ident`=0,
+    `pmp_ort_id`=NULL,
+    `pmp_event_id`=50,
+    `pmp_name`='Main Cart',
+    `pmp_width`=5,
+    `pmp_height`=15,
+    `pmp_scene`='',
+    `pmp_shift`=0,
+    `pmp_data`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;i:5;i:0;}}i:2;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;i:5;i:0;}}i:3;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;i:5;i:0;}}i:4;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;i:5;i:1;}i:4;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;i:5;i:0;}}i:5;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;i:5;i:0;}}i:6;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;i:5;i:0;}}i:7;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;i:5;i:0;}}i:8;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;i:5;i:0;}}i:9;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;i:5;i:0;}}i:10;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;i:5;i:0;}}i:11;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;i:5;i:0;}}i:12;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;i:5;i:0;}}i:13;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;i:5;i:0;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_data_orig`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;}i:1;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;}i:4;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;}}i:2;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;}i:1;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;}i:4;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;}}i:3;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;}i:1;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;}i:4;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;}}i:4;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;}i:1;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;}i:4;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;}}i:5;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;}i:1;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;}i:4;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;}}i:6;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;}i:1;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;}i:4;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;}}i:7;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;}i:1;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;}i:4;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;}}i:8;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;}i:1;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;}i:4;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;}}i:9;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;}i:1;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;}i:4;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;}}i:10;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;}i:1;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;}i:4;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;}}i:11;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;}i:1;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;}i:4;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;}}i:12;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;}i:1;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;}i:4;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;}}i:13;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;}i:1;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;}i:4;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_expires`=1481826505
+WHERE `pmp_id` = 66 LIMIT 1
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:33:13-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1481823193
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:33:13-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:47:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1481824052
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:47:32-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:47:44-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:47:46-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* ,((select count(*) from Category where Event.event_id=Category.category_event_id and Category.category_web=1) >0) as category_web from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:47:49-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:47:50-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:48:03-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [addtocart]
+/index.php [addtocart]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=50
+            and event_status='pub' limit 1
+=> class.shopdb.php 283:
+select category_numbering
+              from Category
+              where category_id=158
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:04-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:48:14-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [view_cart]
+/index.php [view_cart]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin free seats]
+=> class.shopdb.php 283:
+select seat_pmp_id
+                from `Seat`
+          where seat_id=804
+          and seat_sid='kr95r6geto0vf9jjjd047t22t6'
+          and seat_status='res'
+          and seat_event_id=50
+          and seat_category_id=158
+          FOR UPDATE
+[Rollback cant lock seats] 1
+=> model.seat.php 433:
+UPDATE `Seat`
+                set seat_status='free',
+                seat_ts=NULL,
+                seat_sid=NULL
+                where seat_id=804
+                and seat_sid='kr95r6geto0vf9jjjd047t22t6'
+                and seat_status='res'
+                and seat_event_id=50
+                and seat_category_id=158
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:22-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//checkout.php [index]
+/checkout.php [index]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin Running the Checkout pages]
+[Commit Checkout page rendered.]
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:45-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:49-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* ,((select count(*) from Category where Event.event_id=Category.category_event_id and Category.category_web=1) >0) as category_web from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:54-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* ,((select count(*) from Category where Event.event_id=Category.category_event_id and Category.category_web=1) >0) as category_web from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:57-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T12:48:57-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> model.seat.php 121:
+select seat_id, seat_status, seat_ts
+            from Seat
+            where seat_pmp_id=66
+=> class.model.php 194:
+UPDATE `PlaceMapPart` SET 
+    `pmp_pm_id`=54,
+    `pmp_ident`=0,
+    `pmp_ort_id`=NULL,
+    `pmp_event_id`=50,
+    `pmp_name`='Main Cart',
+    `pmp_width`=5,
+    `pmp_height`=15,
+    `pmp_scene`='',
+    `pmp_shift`=0,
+    `pmp_data`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;i:5;i:0;}}i:2;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;i:5;i:0;}}i:3;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;i:5;i:0;}}i:4;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;i:5;i:0;}}i:5;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;i:5;i:1;}}i:6;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;i:5;i:0;}}i:7;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;i:5;i:0;}}i:8;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;i:5;i:0;}}i:9;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;i:5;i:0;}}i:10;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;i:5;i:0;}}i:11;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;i:5;i:0;}}i:12;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;i:5;i:0;}}i:13;a:5:{i:0;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;i:5;i:0;}i:1;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;i:5;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;i:5;i:0;}i:4;a:6:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;i:5;i:0;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_data_orig`='a:15:{i:0;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}i:1;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"1\";i:3;i:2;i:4;i:790;}i:1;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"2\";i:3;i:2;i:4;i:791;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"3\";i:3;i:2;i:4;i:792;}i:4;a:5:{i:0;i:1;i:1;s:1:\"A\";i:2;s:1:\"4\";i:3;i:2;i:4;i:793;}}i:2;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"1\";i:3;i:2;i:4;i:794;}i:1;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"2\";i:3;i:2;i:4;i:795;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"3\";i:3;i:2;i:4;i:796;}i:4;a:5:{i:0;i:1;i:1;s:1:\"B\";i:2;s:1:\"4\";i:3;i:2;i:4;i:797;}}i:3;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"1\";i:3;i:1;i:4;i:798;}i:1;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"2\";i:3;i:1;i:4;i:799;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"3\";i:3;i:1;i:4;i:800;}i:4;a:5:{i:0;i:1;i:1;s:1:\"C\";i:2;s:1:\"4\";i:3;i:1;i:4;i:801;}}i:4;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"1\";i:3;i:1;i:4;i:802;}i:1;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"2\";i:3;i:1;i:4;i:803;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"3\";i:3;i:1;i:4;i:804;}i:4;a:5:{i:0;i:1;i:1;s:1:\"D\";i:2;s:1:\"4\";i:3;i:1;i:4;i:805;}}i:5;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"1\";i:3;i:1;i:4;i:806;}i:1;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"2\";i:3;i:1;i:4;i:807;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"3\";i:3;i:1;i:4;i:808;}i:4;a:5:{i:0;i:1;i:1;s:1:\"E\";i:2;s:1:\"4\";i:3;i:1;i:4;i:809;}}i:6;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"1\";i:3;i:1;i:4;i:810;}i:1;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"2\";i:3;i:1;i:4;i:811;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"3\";i:3;i:1;i:4;i:812;}i:4;a:5:{i:0;i:1;i:1;s:1:\"F\";i:2;s:1:\"4\";i:3;i:1;i:4;i:813;}}i:7;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"1\";i:3;i:1;i:4;i:814;}i:1;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"2\";i:3;i:1;i:4;i:815;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"3\";i:3;i:1;i:4;i:816;}i:4;a:5:{i:0;i:1;i:1;s:1:\"G\";i:2;s:1:\"4\";i:3;i:1;i:4;i:817;}}i:8;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"1\";i:3;i:1;i:4;i:818;}i:1;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"2\";i:3;i:1;i:4;i:819;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"3\";i:3;i:1;i:4;i:820;}i:4;a:5:{i:0;i:1;i:1;s:1:\"H\";i:2;s:1:\"4\";i:3;i:1;i:4;i:821;}}i:9;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"1\";i:3;i:1;i:4;i:822;}i:1;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"2\";i:3;i:1;i:4;i:823;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"3\";i:3;i:1;i:4;i:824;}i:4;a:5:{i:0;i:1;i:1;s:1:\"I\";i:2;s:1:\"4\";i:3;i:1;i:4;i:825;}}i:10;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"1\";i:3;i:1;i:4;i:826;}i:1;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"2\";i:3;i:1;i:4;i:827;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"3\";i:3;i:1;i:4;i:828;}i:4;a:5:{i:0;i:1;i:1;s:1:\"J\";i:2;s:1:\"4\";i:3;i:1;i:4;i:829;}}i:11;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"1\";i:3;i:2;i:4;i:830;}i:1;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"2\";i:3;i:2;i:4;i:831;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"3\";i:3;i:2;i:4;i:832;}i:4;a:5:{i:0;i:1;i:1;s:1:\"K\";i:2;s:1:\"4\";i:3;i:2;i:4;i:833;}}i:12;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"1\";i:3;i:2;i:4;i:834;}i:1;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"2\";i:3;i:2;i:4;i:835;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"3\";i:3;i:2;i:4;i:836;}i:4;a:5:{i:0;i:1;i:1;s:1:\"L\";i:2;s:1:\"4\";i:3;i:2;i:4;i:837;}}i:13;a:5:{i:0;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"1\";i:3;i:2;i:4;i:838;}i:1;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"2\";i:3;i:2;i:4;i:839;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"3\";i:3;i:2;i:4;i:840;}i:4;a:5:{i:0;i:1;i:1;s:1:\"M\";i:2;s:1:\"4\";i:3;i:2;i:4;i:841;}}i:14;a:5:{i:0;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}i:1;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:2;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:3;a:3:{i:0;i:0;i:1;i:0;i:2;i:0;}i:4;a:3:{i:0;s:1:\"L\";i:1;s:1:\"E\";i:2;i:0;}}}',
+    `pmp_expires`=1481827737
+WHERE `pmp_id` = 66 LIMIT 1
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T12:58:17-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [cart_view]
+/index.php [cart_view]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T13:12:59-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [login]
+/index.php [login]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> basics.php 593:
+UPDATE Seat SET
+            seat_status='free',
+            seat_ts=NULL,
+            seat_sid=NULL
+         where seat_status='res'
+         and seat_ts<1481825579
+=> model.config.php 268:
+insert into configuration (config_field, config_value) VALUES ('shopconfig_lastrun',CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';'))
+                       on duplicate key update config_value=CONCAT('i:',UNIX_TIMESTAMP(TIMESTAMPADD( MINUTE , 10, now( ) )),';')
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where event_status='pub' and event_date>='2016-12-15' and event_rep LIKE '%sub%' order by event_date, event_time limit 0,4
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T13:13:05-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php []
+/index.php []
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* ,((select count(*) from Category where Event.event_id=Category.category_event_id and Category.category_web=1) >0) as category_web from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T13:13:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [buy]
+/index.php [buy]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> block.event.php 159:
+select SQL_CALC_FOUND_ROWS Event.*, Ort.*, PlaceMap2.* from Event LEFT JOIN Ort ON ort_id=event_ort_id LEFT JOIN PlaceMap2 ON pm_event_id=event_id where (event_status='pub' or event_rep = 'main') and event_id=50  limit 1
+=> class.shopdb.php 283:
+SELECT FOUND_ROWS();
+=> class.shopdb.php 283:
+select Event.*, pm_name, ort_name, ort_country, event_group_name
+            from Event LEFT JOIN Ort ON event_ort_id=ort_id
+                       LEFT JOIN PlaceMap2 pm ON event_pm_id=pm_id
+                       LEFT JOIN Event_group eg ON eg.event_group_id= Event.event_group_id
+            where Event.event_id=1
+            and event_status='pub' limit 1
+=> block.category.php 66:
+select * from Category where 1=1 AND category_web=1
+ and category_event_id=50
+ 
+=> block.discount.php 77:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50  
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T13:13:10-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//json.php [PlaceMap]
+/json.php [PlaceMap]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT *
+    	FROM Category c
+    	WHERE 1=1
+    	AND c.category_id = 158
+=> class.shopdb.php 283:
+select * from PlaceMapPart left join PlaceMap2 on pmp_pm_id=pm_id
+                                         left join Ort       on pmp_ort_id=ort_id
+                                         LEFT JOIN Event     ON pmp_event_id=event_id
+              where pmp_id= 66
+=> model.placemapzone.php 73:
+select *
+            from PlaceMapZone
+            where pmz_pm_id=54
+=> model.placemapcategory.php 104:
+select c.*, e.event_status
+            from Category c 
+            LEFT JOIN Event e ON event_id=category_event_id
+            where category_pm_id=54
+=> controller.web.json.php 136:
+select * from Discount  where (FIND_IN_SET('yes', discount_active)>0  or  FIND_IN_SET('www', discount_active)>0)  and discount_event_id=50 and (discount_category_id is null or discount_category_id = 158) and (discount_promo is null OR discount_promo ='')
+End of shop 
+
+
+
+2016-12-15T13:13:14-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//index.php [view_cart]
+/index.php [view_cart]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin free seats]
+=> class.shopdb.php 283:
+select seat_pmp_id
+                from `Seat`
+          where seat_id=809
+          and seat_sid='kr95r6geto0vf9jjjd047t22t6'
+          and seat_status='res'
+          and seat_event_id=50
+          and seat_category_id=158
+          FOR UPDATE
+[Rollback cant lock seats] 1
+=> model.seat.php 433:
+UPDATE `Seat`
+                set seat_status='free',
+                seat_ts=NULL,
+                seat_sid=NULL
+                where seat_id=809
+                and seat_sid='kr95r6geto0vf9jjjd047t22t6'
+                and seat_status='res'
+                and seat_event_id=50
+                and seat_category_id=158
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
+2016-12-15T13:13:16-05:00 : ErrorLog: http://fusiontix-blubytes1.c9users.io//checkout.php [index]
+/checkout.php [index]
+====================================================================
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 283:
+SELECT UNIX_TIMESTAMP() as current_db_time
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> class.shopdb.php 140:
+START TRANSACTION
+[Begin Running the Checkout pages]
+[Commit Checkout page rendered.]
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+=> model.plugin.php 108:
+select * from `plugins`
+              where plugin_enabled=1
+              order by plugin_priority, plugin_name 
+End of shop 
+
+
+
