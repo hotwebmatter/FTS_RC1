@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-16 13:48:39
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-12-15 14:12:57
          compiled from "/home/ubuntu/workspace/includes/template/web/user_register.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1476185400582caa070c5ca5-86441831%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:139143625852eb392731b3-24889467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1d0090f66b8959926c89c10cd631932aa036826c' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/web/user_register.tpl',
-      1 => 1478706703,
+      1 => 1481826312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1476185400582caa070c5ca5-86441831',
+  'nocache_hash' => '139143625852eb392731b3-24889467',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_582caa071fe249_05075366',
+  'unifunc' => 'content_5852eb3935cce0_10445645',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582caa071fe249_05075366')) {function content_582caa071fe249_05075366($_smarty_tpl) {?><!-- $Id$ --><!-- user_register.tpl --><?php if (!$_smarty_tpl->tpl_vars['ManualRegister']->value){?><div class="art-content-layout-br layout-item-0"></div><div class="art-content-layout layout-item-1"><div class="art-content-layout-row"><div class="art-layout-cell layout-item-3"><b><?php if ($_smarty_tpl->tpl_vars['user']->value->mode()<='1'){?><?php echo con("becomemember");?>
+<?php if ($_valid && !is_callable('content_5852eb3935cce0_10445645')) {function content_5852eb3935cce0_10445645($_smarty_tpl) {?><!-- $Id$ --><!-- user_register.tpl --><?php if (!$_smarty_tpl->tpl_vars['ManualRegister']->value){?><div class="art-content-layout-br layout-item-0"></div><div class="art-content-layout layout-item-1"><div class="art-content-layout-row"><div class="art-layout-cell layout-item-3"><b><?php if ($_smarty_tpl->tpl_vars['user']->value->mode()<='1'){?><?php echo con("becomemember");?>
 <?php }elseif($_smarty_tpl->tpl_vars['user']->value->mode()=='2'){?><?php echo con("becomememberorguest");?>
 <?php }else{ ?><?php echo con("becomeguest");?>
 <?php }?></b><br><?php echo con("guest_info");?>

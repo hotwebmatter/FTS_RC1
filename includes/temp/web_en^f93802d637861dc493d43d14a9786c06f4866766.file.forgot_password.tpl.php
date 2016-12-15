@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-16 13:49:11
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-12-15 14:12:17
          compiled from "/home/ubuntu/workspace/includes/template/web/forgot_password.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1979985967582caa27f277e5-56336849%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14031793685852eb110e1900-87467616%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f93802d637861dc493d43d14a9786c06f4866766' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/web/forgot_password.tpl',
-      1 => 1478706703,
+      1 => 1481826312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1979985967582caa27f277e5-56336849',
+  'nocache_hash' => '14031793685852eb110e1900-87467616',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_582caa280a4a83_80464072',
+  'unifunc' => 'content_5852eb1114ca67_87702585',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_582caa280a4a83_80464072')) {function content_582caa280a4a83_80464072($_smarty_tpl) {?><!-- $Id$ -->
+<?php if ($_valid && !is_callable('content_5852eb1114ca67_87702585')) {function content_5852eb1114ca67_87702585($_smarty_tpl) {?><!-- $Id$ -->
  <?php if ($_POST['action']=='resendpassword'){?>
     <?php echo $_smarty_tpl->tpl_vars['user']->value->forgot_password_f($_POST['email']);?>
 

@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-23 12:06:48
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-12-15 13:54:02
          compiled from "/home/ubuntu/workspace/includes/template/web/custom/cart_view_block.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6133409655835ca93040817-46787229%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4340436815852e6ca3ef821-62656100%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '45a30cddf3f488ae4d6a7e89bbf16b664e378387' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/web/custom/cart_view_block.tpl',
-      1 => 1479920805,
+      1 => 1481826312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6133409655835ca93040817-46787229',
+  'nocache_hash' => '4340436815852e6ca3ef821-62656100',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_5835ca9322fbb0_13184030',
   'variables' => 
   array (
     'cart' => 0,
@@ -29,8 +27,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_SHOP_root_secured' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1-DEV',
+  'unifunc' => 'content_5852e6ca51a431_37728693',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5835ca9322fbb0_13184030')) {function content_5835ca9322fbb0_13184030($_smarty_tpl) {?><!-- $Id$ -->
+<?php if ($_valid && !is_callable('content_5852e6ca51a431_37728693')) {function content_5852e6ca51a431_37728693($_smarty_tpl) {?><!-- $Id$ -->
 <div class="art-box art-block">
   <div class="art-box-body art-block-body">
     <div class="art-bar art-blockheader">

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-09 12:14:27
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-12-15 13:54:01
          compiled from "/home/ubuntu/workspace/includes/template/web/page_shop.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7846229595823597331ef46-71353527%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13989326135852e6c9e94313-83659362%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5192672c5d23c3d8b614429545de7f63d16d8a83' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/web/page_shop.tpl',
-      1 => 1478706703,
+      1 => 1481826312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7846229595823597331ef46-71353527',
+  'nocache_hash' => '13989326135852e6c9e94313-83659362',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_5823597334d754_19163658',
+  'unifunc' => 'content_5852e6c9ec4280_82658064',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5823597334d754_19163658')) {function content_5823597334d754_19163658($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/home/ubuntu/workspace/includes/libs/smarty3/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5852e6c9ec4280_82658064')) {function content_5852e6c9ec4280_82658064($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/home/ubuntu/workspace/includes/libs/smarty3/plugins/modifier.date_format.php';
 if (!is_callable('smarty_block_event')) include '/home/ubuntu/workspace/includes/shop_plugins/block.event.php';
 ?><!-- $Id$ -->
  <?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('name'=>con("up_events"),'header'=>con("eventlist_info")), 0);?>

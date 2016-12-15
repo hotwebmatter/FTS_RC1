@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2016-11-09 12:14:27
+<?php /* Smarty version Smarty-3.1-DEV, created on 2016-12-15 13:54:01
          compiled from "/home/ubuntu/workspace/includes/template/web/shop.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:212795790582359731112c7-21602158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:717649265852e6c9c54c22-13080570%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '8e9c60985aeb7abb28729cc65c2984d7b97f373f' => 
     array (
       0 => '/home/ubuntu/workspace/includes/template/web/shop.tpl',
-      1 => 1478706703,
+      1 => 1481826312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '212795790582359731112c7-21602158',
+  'nocache_hash' => '717649265852e6c9c54c22-13080570',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1-DEV',
-  'unifunc' => 'content_58235973318274_88238857',
+  'unifunc' => 'content_5852e6c9e8c653_81517794',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58235973318274_88238857')) {function content_58235973318274_88238857($_smarty_tpl) {?><!-- $Id$ --><?php if ($_POST['action']=='resendpassword'){?><?php echo $_smarty_tpl->tpl_vars['user']->value->forgot_password_f($_POST['email']);?>
+<?php if ($_valid && !is_callable('content_5852e6c9e8c653_81517794')) {function content_5852e6c9e8c653_81517794($_smarty_tpl) {?><!-- $Id$ --><?php if ($_POST['action']=='resendpassword'){?><?php echo $_smarty_tpl->tpl_vars['user']->value->forgot_password_f($_POST['email']);?>
 <?php }?><?php if ($_REQUEST['action']=='login'&&$_REQUEST['type']!='block'){?><?php echo $_smarty_tpl->getSubTemplate ("user_login.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <?php }elseif($_REQUEST['action']=='register'){?><?php if ($_REQUEST['register_user']){?><?php echo $_smarty_tpl->smarty->registered_objects['user'][0]->register(array('ismember'=>true,'data'=>$_POST,'secure'=>'user_nospam','login'=>true),$_smarty_tpl);?>
 <?php $_smarty_tpl->tpl_vars['user_data'] = new Smarty_variable($_POST, null, 0);?><?php if ($_smarty_tpl->tpl_vars['user_errors']->value){?><?php echo $_smarty_tpl->getSubTemplate ("user_register.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('ManualRegister'=>true), 0);?>

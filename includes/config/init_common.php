@@ -269,10 +269,10 @@ echo  $_PATH_INFO  = getenv('PATH_INFO');
                                   'opera','humour','music','other','cinema','party','exposition');
   $_SHOP->event_group_type_enum = array('','festival','tournee','theatre');
 
-  $_SHOP->mail_smtp_host = null;
-  $_SHOP->mail_smtp_port = null;
-  $_SHOP->mail_smtp_user = null;
-  $_SHOP->mail_smtp_pass = null;
+  $_SHOP->mail_smtp_host = "smtp.sendgrid.net";
+  $_SHOP->mail_smtp_port = 587;
+  $_SHOP->mail_smtp_user = "cturner08";
+  $_SHOP->mail_smtp_pass = "spicytaco99";
   $_SHOP->mail_smtp_security = null; // ""
 
 

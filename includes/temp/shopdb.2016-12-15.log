@@ -1,2 +1,69 @@
-2016-12-15T12:48:14-05:00 [Rollback cant lock seats] 1
-2016-12-15T13:13:14-05:00 [Rollback cant lock seats] 1
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Admin' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Admin`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.adminlink' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `adminlink`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.admingroups' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `admingroups`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.auth' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `auth`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.User' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `User`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Category' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Category`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.CC_Info' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `CC_Info`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Discount' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Discount`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Event' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Event`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Event_group' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Event_group`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.email_log' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `email_log`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Handling' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Handling`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Order' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Order`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.order_status' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `order_status`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.order_note' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `order_note`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Ort' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Ort`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.PlaceMap2' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `PlaceMap2`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.PlaceMapPart' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `PlaceMapPart`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.PlaceMapZone' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `PlaceMapZone`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Seat' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Seat`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.Template' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `Template`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.plugins' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `plugins`
+2016-12-15T18:53:03+00:00 [Error: 1146] class.shopdb.php ShopDB::query_one_row (671)
+2016-12-15T18:53:03+00:00 Table 'ft_rc1a.configuration' doesn't exist
+2016-12-15T18:53:03+00:00 SHOW CREATE TABLE `configuration`
